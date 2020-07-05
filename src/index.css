@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'UrduFont1';
+  src: url('nastaleeq.ttf') format('truetype')
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.urdu {
+  font-family: 'UrduFont1';
+}
+button.urdu span {
+  font-family: 'UrduFont1';
+  font-size: 24px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.leaflet-verticalcenter {
+  position: absolute;
+  z-index: 1000;
+  pointer-events: none;
+  top: 180px; /* possible because the placeholder's parent is the map */
+  transform: translateY(-50%); /* using the CSS3 Transform technique */
+  padding-top: 10px;
+  display: flex;
+}
